@@ -1,0 +1,74 @@
+.zoom-zone {
+  width: 368px;
+  height: 368px;
+  overflow: hidden;
+}
+.noi-dung1 {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  position: sticky;
+  top: 12px;
+  gap: 16px;
+  padding: 16px 0px 12px 0px;
+}
+.product-style-img {
+  position: relative;
+}
+.list-thumb {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.list-thumb li {
+  float: left;
+  margin-right: 10px;
+}
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+.Ddnb {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 16px;
+}
+#ddnb {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(39, 39, 42);
+}
+.ddnb-ct {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.ddnb-1 {
+  display: flex;
+  flex: 1 1 0%;
+  overflow: hidden;
+  gap: 8px;
+  color: var(--alias-primary-on-theme, #27272a);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+}

@@ -1,0 +1,176 @@
+.noi-dung-3 {
+  display: flex;
+  flex-direction: column;
+}
+.Seller-header {
+  display: flex;
+  flex-direction: column;
+  /* background: white; */
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+}
+.dat-mua-hang {
+  position: sticky;
+  top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+}
+.in4-store {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgb(235, 235, 240);
+}
+.Seller-header img {
+  width: 40px;
+  height: 40px;
+}
+.Seller {
+  display: flex;
+  flex-direction: column;
+  /* background: white; */
+  /* border-radius: 8px; */
+  gap: 8px;
+}
+.Store {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.Store img {
+  height: 20px;
+  width: 70px;
+}
+.SR-sao {
+  display: flex;
+  align-items: center;
+}
+.store-ratting {
+  display: flex;
+  align-items: center;
+}
+.Don-mua {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Don-mua img {
+  width: 40px;
+  height: 40px;
+}
+.So-luong {
+  display: grid;
+  gap: 8px;
+}
+.SL-text {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  margin: 0px;
+}
+.T-G-SL {
+  display: flex;
+  align-items: center;
+}
+#TangGiam {
+  display: flex;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(166, 166, 176);
+  border-radius: 4px;
+}
+#TangGiam img {
+  width: 20px;
+  height: 18px;
+}
+.input {
+  text-align: center;
+  width: 34px;
+  height: 28px;
+  margin: 0 4px;
+  outline: none;
+  border: 1px solid rgb(166, 166, 176);
+  border-radius: 4px;
+}
+.quang-cao img {
+  width: 100%;
+  border-radius: 8px;
+}
+.TamTinh {
+  display: grid;
+  gap: 8px;
+}
+#TamTinh-text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  color: rgb(39, 39, 42);
+}
+#GiaTamTinh {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+.Dat-mua {
+  display: grid;
+  gap: 8px;
+}
+.Mua-ngay {
+  background: rgb(255, 66, 78);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: 300;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  white-space: nowrap;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  font-size: 16px;
+  line-height: 150%;
+}
+.Chua-mua {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+  white-space: nowrap;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(10, 104, 255);
+  border: 1px solid rgb(10, 104, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.follow {
+  display: flex;
+  align-items: center;
+  padding: 3px 12px;
+  gap: 8px;
+  border: 1px solid rgb(166, 166, 176);
+  border-radius: 4px;
+}
+.follow img {
+  width: 16px;
+  height: 16px;
+}

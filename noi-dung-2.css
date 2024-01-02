@@ -1,0 +1,363 @@
+.noi-dung-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 0px 12px 0px;
+}
+.TTSP {
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  gap: 16px;
+}
+.Thuong-Hieu {
+  display: flex;
+  gap: 8px;
+  -webkit-box-align: center;
+  align-items: center;
+}
+#icon-TH {
+  width: 89px;
+  height: 20px;
+}
+.TenTH {
+  display: flex;
+  align-items: baseline;
+}
+.TenTH h6 {
+  margin: 0px;
+  color: rgb(36, 36, 36);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.TenTH a {
+  font-size: 13px;
+  line-height: 20px;
+  color: rgb(13, 92, 182);
+}
+h1 {
+  margin: 7px 0px;
+  color: rgb(39, 39, 42);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+.Sao {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.Danh-Gia {
+  display: flex;
+  align-items: center;
+}
+#Sao-2 {
+  color: rgb(208, 208, 0);
+  font-size: 1.3rem;
+  margin: 0px 5px;
+}
+#Sao-3 {
+  display: block;
+  margin-left: 8px;
+  color: rgb(120, 120, 120);
+  font-size: 14px;
+  line-height: 24px;
+}
+#DG-1 {
+  width: 1px;
+  height: 12px;
+  background-color: rgb(199, 199, 199);
+  margin-left: 8px;
+  margin-right: 8px;
+}
+#Da-ban {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgb(120, 120, 120);
+}
+.Gia-tien {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.discount {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  padding: 0px 4px;
+  background: rgb(245, 245, 250);
+  border-radius: 8px;
+  color: rgb(39, 39, 42);
+}
+.GiaSP {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  color: rgb(39, 39, 42);
+  gap: 8px;
+}
+.KieuSP {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+}
+.color {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+#Mau {
+  color: rgb(39, 39, 42);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0px;
+  padding-right: 20px;
+}
+.Chon-kieu {
+  display: inline-flex;
+  border: 2px solid rgb(10, 104, 255);
+
+  border-radius: 7px;
+}
+.Minh-hoa {
+  display: flex;
+
+  align-items: center;
+  padding: 4px;
+  gap: 8px;
+}
+.HAMH img {
+  width: 42px;
+  height: 42px;
+}
+.dau-tich {
+  width: 10px;
+  height: 10px;
+}
+.Kich-co {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.MS-KC {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+}
+.MS {
+  padding: 4px 16px;
+}
+
+.Co-42 {
+  display: inline-flex;
+  border: 2px solid rgb(10, 104, 255);
+  border-radius: 7px;
+}
+.TTVC {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 4px;
+}
+.TTVC-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(39, 39, 42);
+}
+.TTVC-GiaoDen-Doi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0px;
+  border-bottom: 1px solid rgb(235, 235, 240);
+}
+.Giao-den {
+  margin: 0;
+}
+#doi {
+  color: rgb(10, 104, 255);
+}
+.TTGH-ngay {
+  display: flex;
+  align-items: center;
+}
+#icon-GH img {
+  height: 16px;
+  width: 32px;
+}
+#ngay-GH {
+  padding-left: 8px;
+}
+#freeship {
+  color: #00ab56;
+}
+#tien-23 {
+  text-decoration: line-through;
+  color: #808089;
+}
+.DVBS {
+  gap: 4px;
+  padding: 16px;
+}
+#DVBS-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(39, 39, 42);
+}
+.Tiki-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid rgb(235, 235, 240);
+}
+.TKC {
+  display: flex;
+  align-items: center;
+}
+#TKC {
+  padding-left: 8px;
+}
+#Dang-ky {
+  color: rgb(10, 104, 255);
+}
+.Tiki-card img {
+  height: 40px;
+  width: 40px;
+}
+.Pay-later {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.PLT {
+  display: flex;
+  align-items: center;
+}
+#PLT {
+  padding-left: 8px;
+}
+.Pay-later img {
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+}
+.SPTT {
+  /* display: flex; */
+  padding: 16px;
+  gap: 4px;
+}
+#SPTT-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: rgb(39, 39, 42);
+}
+.SPTT-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.SPTT-1 {
+  width: 130px;
+  height: 223px;
+}
+.SPTT-1 img {
+  width: 130px;
+  height: 130px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: rgb(39, 39, 42);
+  margin: 0px;
+}
+#SPTT-1-ratting {
+  color: rgb(208, 208, 0);
+  margin: 0px 5px;
+}
+.store-ratting {
+  gap: 12px;
+}
+.Uy-Tin {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.Theo_doi {
+  display: flex;
+  align-items: center;
+}
+.TTBH {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+}
+.TTBH div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 0px;
+}
+#ttbh-CT {
+  padding-left: 8px;
+}
+#TTBH {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+.HDBH a {
+  padding-left: 8px;
+  color: blue;
+}
+.TTCT {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 4px;
+}
+#ttct {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+td {
+  padding: 8px 0px;
+  line-height: 150%;
+}
+#mtsp {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+#hdcs {
+  margin-top: 5px;
+  margin-bottom: 12px;
+  line-height: 21px;
+}
+#luu-y {
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+#thu-gon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#xem-them {
+  border: 0px;
+  color: blue;
+}
