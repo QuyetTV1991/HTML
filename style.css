@@ -160,14 +160,13 @@ p {
 }
 
 footer {
-  margin-top: 16px;
+  margin: 16px auto;
   font-size: 12px;
   line-height: 16px;
   font-weight: normal;
   color: rgb(128, 128, 137);
   background-color: white;
-  margin-left: 10px;
-  margin-right: 10px;
+  max-width: 80%;
 }
 
 ul {
@@ -195,11 +194,14 @@ a:hover {
   justify-content: space-between;
   gap: 10px;
   min-width: 1024px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(128, 128, 137);
 }
 
 .infomation-tk > div {
   flex: 1;
   max-width: 20%;
+  margin: 0px 20px;
 }
 
 .footer_title {
@@ -223,14 +225,59 @@ a:hover {
   gap: 30px;
 }
 
-.list_certificates {
+.list_icons {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.list_certificates a img {
+.list_icons a img {
   width: auto;
   height: 32px;
+}
+
+.list_icons > img {
+  flex-basis: min(20%, calc(100% / 5) - 10px);
+  max-width: min(20%, calc(100% / 5) - 5px);
+  height: 32px;
+}
+
+.footer_tikiNow_icon {
+  width: 109px;
+  height: 33px;
+  margin-left: -9px;
+  margin-top: -8px;
+}
+
+.download_app {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.download_app img {
+  width: 80px;
+  height: 80px;
+}
+
+.apps {
+  display: flex;
+  flex-direction: column;
+}
+
+.apps img {
+  width: 122px;
+  height: 36px;
+}
+
+.addresses-tk {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(128, 128, 137);
 }
